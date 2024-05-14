@@ -1,0 +1,4 @@
+podSettings:
+  pythonImage:
+    name: 'jxp/agent/python3'
+    version: '3.10.4'
