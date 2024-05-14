@@ -1,0 +1,4 @@
+env:
+  aam_code: c2e
+  version: 0.0.2
+  artifact_name: ai-arch-commons
