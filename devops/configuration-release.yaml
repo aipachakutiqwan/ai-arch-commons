@@ -1,0 +1,13 @@
+build:
+  tool:
+    python:
+      testRunner: pytest
+
+sonar:
+  tool:
+    sonarJenkins:
+      args: -Dsonar.sources=ai_arch_commons
+
+publishArtifact:
+  artifact: dist/${artifact_name}-${version}-py3-none-any.whl
+  release: true
