@@ -9,5 +9,5 @@ sonar:
       args: -Dsonar.sources=ai_arch_commons
 
 publishArtifact:
-  artifact: dist/ai_arch_commons-{$version}-py3-none-any.whl
+  artifact: dist/${artifact_name}-{$version}-py3-none-any.whl
   release: false
