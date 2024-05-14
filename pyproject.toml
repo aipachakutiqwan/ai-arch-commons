@@ -1,7 +1,7 @@
 
 [project]
 name = "ai-arch-commons"
-version = "0.0.2"
+version = "0.0.3"
 requires-python = ">=3.10"
 
 dependencies = [
