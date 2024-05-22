@@ -19,7 +19,7 @@ dependencies = [
     "starlette>=0.37.2",
     "httpcore==0.17.3",
     "httpx==0.24.1",
-    "typing_extensions==4.6.3",
+    "typing-extensions>=4.8.0",
     "uvicorn==0.22.0"
 ]
 
