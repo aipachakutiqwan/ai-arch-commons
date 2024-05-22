@@ -1,7 +1,7 @@
 
 [project]
 name = "ai-arch-commons"
-version = "0.0.4"
+version = "0.0.5"
 requires-python = ">=3.10"
 
 dependencies = [
@@ -13,7 +13,7 @@ dependencies = [
     "idna==3.4",
     "ldap3==2.9.1",
     "pyasn1==0.5.0",
-    "pydantic==1.10.9",
+    "pydantic==2.7.1",
     "PyYAML==6.0",
     "sniffio==1.3.0",
     "starlette>=0.37.2",

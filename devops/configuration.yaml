@@ -1,4 +1,4 @@
 env:
   aam_code: c2e
-  version: 0.0.4
+  version: 0.0.5
   artifact_name: ai_arch_commons
