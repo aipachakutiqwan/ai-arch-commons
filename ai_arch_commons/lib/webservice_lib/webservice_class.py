@@ -6,15 +6,16 @@ from ai_arch_commons.lib.webservice_lib.router import heartbeat
 
 
 class WebServiceLib():
-    def __init__(self):
+    def __init__(self, heartbeat_prefix='heartbeat'):
         self.num_workers = None
         self.app = None
         self.router = None
         self.config = None
+        self.heartbeat_prefix = heartbeat_prefix
 
     def get_router(self):
         api_router = APIRouter()
-        api_router.include_router(heartbeat.ROUTER, tags=['Heartbeat'], prefix='/heartbeat')
+        api_router.include_router(heartbeat.ROUTER, tags=['Heartbeat'], prefix=f'/{self.heartbeat_prefix}')
         self.router = api_router
 
     def setup_service(self, config: Dict, router_info: List, app_state_vars: Dict):
