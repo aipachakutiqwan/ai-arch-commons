@@ -5,7 +5,7 @@ from fastapi import FastAPI, APIRouter
 from ai_arch_commons.lib.webservice_lib.router import heartbeat
 
 
-class WebServiceLib():
+class WebServiceLib:
     def __init__(self, heartbeat_prefix='heartbeat'):
         self.num_workers = None
         self.app = None

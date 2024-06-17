@@ -5,6 +5,7 @@ from typing import Dict
 
 class BaseAIService(ABC):
     def __init__(self):
+        super(BaseAIService, self).__init__()
         logging.info("BaseAIService: initialized.")
 
     @abstractmethod
